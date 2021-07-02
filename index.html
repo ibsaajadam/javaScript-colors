@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Random Project</title>
+</head>
+<body>
+
+<div class="wrapper" align="center";>
+<header>
+  <h2>Enter a Color Below</h2>
+</header>
+<div class="input-group input-group-lg">
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+  <span onclick="myTry()" class="input-group-text" id="inputGroup-sizing-lg">Submit</span>
+</div>
+<div class="input-group mb-3 mt-4">
+  <input type="text" class="form-control" placeholder="Try these..." aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button onclick="myFunction()" class="btn btn-danger" type="button" id="button-addon2">Click Here</button>
+</div>
+</div>
+
+<div class="colors" align="center" style="display:none;">
+  <ul class="list-group">
+    <li onclick="myIndigo()" class="list-group-item indigo">Indigo</li>
+    <li onclick="myCyan()" class="list-group-item cyan">Cyan</li>
+    <li onclick="myMagenta()" class="list-group-item magenta">Magenta</li>
+    <li onclick="myMaroon()" class="list-group-item maroon">Maroon</li>
+    <li onclick="myNavy()" class="list-group-item navy">Navy</li>
+  </ul>
+</div>
+
+<p class="not-found"></p>
+
+<!-- <div onclick="myRestart()" class="restart">
+  <button>Refresh</button>
+</div> -->
+
+<div class="circles">
+  <div class="cyan-circle" style="display:none;">
+    <h2 class="color-cyan">Cyan</h2>
+  </div>
+
+  <div class="indigo-circle" style="display:none;">
+    <h2 class="color-indigo">Indigo</h2>
+  </div>
+
+  <div class="magenta-circle" style="display:none">
+    <h2 class="color-magenta">Magenta</h2>
+  </div>
+
+  <div class="maroon-circle" style="display:none">
+    <h2 class="color-maroon">Maroon</h2>
+  </div>
+
+  <div class="navy-circle" style="display:none">
+    <h2 class="color-navy">Navy</h2>
+  </div>
+</div>
+ 
+  <script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+  <script src="main.js"></script>
+</body>
+</html>

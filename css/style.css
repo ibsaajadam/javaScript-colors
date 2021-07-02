@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(60, 60, 156);
+  height: 100vh;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.wrapper {
+  padding-top: 2em;
+}
+
+header h2 {
+  color: #fff;
+}
+
+/* .hints {
+  margin-top: 2em;
+} */
+
+.input-group {
+  width: 50%;
+}
+
+.list-group {
+  width: 40%;
+}
+
+.input-group:nth-child(3) {
+  width: 30%;
+}
+
+.input-group-text {
+  cursor: pointer;
+}
+
+.indigo:hover {
+  background-color: #4B0082;
+  color: white;
+  cursor: pointer;
+}
+
+.cyan:hover {
+  background-color: #00FFFF;
+  color: white;
+  cursor: pointer;
+}
+
+.magenta:hover {
+  background-color: #FF00FF;
+  color: white;
+  cursor: pointer;
+}
+
+.maroon:hover {
+  background-color: #800000;
+  color: white;
+  cursor: pointer;
+}
+
+.navy:hover {
+  background-color: #000080;
+  color: white;
+  cursor: pointer;
+}
+
+.not-found {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 26px;
+}
+
+/**************** CIRCLES ****************/
+
+/*** Cyan Circle  ***/
+/*** Indigo Circle  ***/
+/*** Magenta Circle  ***/
+/*** Maroon Circle  ***/
+/*** Navy Circle  ***/
+
+.cyan-circle,
+.indigo-circle,
+.magenta-circle,
+.maroon-circle,
+.navy-circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 10%;
+  height: 100px;
+  margin: 100px auto;
+}
+
+.cyan-circle {
+  background-color: #00FFFF;
+  color: white;
+}
+
+.indigo-circle {
+  background-color: #4B0082;
+  color: white;
+}
+
+.magenta-circle {
+  background-color: #FF00FF;
+  color: white;
+}
+
+.maroon-circle {
+  background-color: #800000;
+  color: white;
+}
+
+.navy-circle {
+  background-color: #000080;
+  color: white;
+}
+
+/*** Cyan Circle Content  ***/
+/*** Indigo Circle Content  ***/
+/*** Magenta Circle Content  ***/
+/*** Maroon Circle Content ***/
+/*** Navy Circle Content ***/
+
+.color-cyan,
+.color-indigo,
+.color-magenta,
+.color-maroon,
+.color-navy {
+ position: relative;
+ text-align: center;
+ top: 25px;
+}
+
+.color-magenta {
+  font-size: 24px;
+}
+
+
+/**************** MEDIA QUERIES ****************/
+
+
+@media (min-width: 320px) {
+  .list-group {
+    width: 80%;
+  }
+  .input-group {
+    width: 90%;
+  }
+  .input-group:nth-child(3) {
+    width: 80%;
+  }
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    margin: auto;
+    width: 30%;
+    height: 100px;
+    margin-top: 2em;
+  }
+
+  /*** Cyan Circle Content  ***/
+  /*** Indigo Circle Content  ***/
+  /*** Magenta Circle Content  ***/
+  /*** Maroon Circle Content ***/
+  /*** Navy Circle Content ***/
+
+  .color-cyan,
+  .color-indigo,
+  .color-magenta,
+  .color-maroon,
+  .color-navy {
+    top: 32px;
+  }
+
+  .color-magenta {
+    font-size: 20px;
+  }
+  
+}
+
+@media (min-width: 375px) {
+  .list-group {
+    width: 80%;
+  }
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 30%;
+  }
+}
+
+@media (min-width: 411px) {
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 30%;
+  }
+
+}
+
+@media (min-width: 500px) {
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 20%;
+  }
+
+}
+
+@media (min-width: 590px) { 
+  .input-group:nth-child(3) {
+    width: 50%;
+  }
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 20%;
+  }
+}
+
+
+@media (min-width: 778px) { 
+  .input-group:nth-child(3) {
+    width: 50%;
+  }
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 15%;
+  }
+}
+
+
+@media (min-width: 924px) { 
+  .input-group {
+    width: 50%;
+  }
+  
+  .list-group {
+    width: 40%;
+  }
+
+  .input-group:nth-child(3) {
+    width: 30%;
+  }
+
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle Content  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    width: 12%;
+  }
+
+ }
+
+@media (min-width: 1200px) { 
+  .input-group {
+    width: 50%;
+  }
+  
+  .list-group {
+    width: 40%;
+  }
+
+  .input-group:nth-child(3) {
+    width: 30%;
+  }
+  /*** Cyan Circle  ***/
+  /*** Indigo Circle  ***/
+  /*** Magenta Circle  ***/
+  /*** Maroon Circle  ***/
+  /*** Navy Circle  ***/
+
+  .cyan-circle,
+  .indigo-circle,
+  .magenta-circle,
+  .maroon-circle,
+  .navy-circle {
+    margin-top: 50px;
+    margin-left: 560px;
+    border: 2px solid black;
+    width: 10%;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  /*** Cyan Circle Content ***/
+  /*** Indigo Circle Content ***/
+  /*** Magenta Circle Content  ***/
+  /*** Maroon Circle Content ***/
+  /*** Navy Circle Content ***/
+
+  .color-cyan,
+  .color-indigo,
+  .color-magenta,
+  .color-marooon,
+  .color-navy {
+    text-align: center;
+    position: absolute;
+    top: 38px;
+    left: 20px;
+    }
+  
+  .color-cyan {
+    position: absolute;
+    left: 25px;
+  }
+
+  .color-magenta {
+    font-size: 25px;
+    position: absolute;
+    left: 15px;
+  }
+
+  .color-navy {
+    position: absolute;
+    left: 28px;
+  }
+    
+ }
+
+
+@media (min-width: 1400px) { 
+
+    /*** Cyan Circle  ***/
+    /*** Indigo Circle  ***/
+    /*** Magenta Circle  ***/
+    /*** Maroon Circle  ***/
+    /*** Navy Circle  ***/
+
+    .cyan-circle,
+    .indigo-circle,
+    .magenta-circle,
+    .maroon-circle,
+    .navy-circle {
+      margin-left: 650px;
+      width: 10%;
+    }
+
+    /*** Cyan Circle Content ***/
+    /*** Indigo Circle Content ***/
+    /*** Magenta Circle Content***/
+    /*** Maroon Circle Content ***/
+    /*** Navy Circle Content ***/
+  
+    .color-cyan,
+    .color-indigo,
+    .color-magenta,
+    .color-marooon,
+    .color-navy {
+      top: 38px;
+      left: 32px;
+    }
+
+    .color-magenta {
+      font-size: 25px;
+      position: absolute;
+      left: 20px;
+    }
+ }
