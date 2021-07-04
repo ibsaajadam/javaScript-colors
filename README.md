@@ -4,7 +4,7 @@ Site created with HTML, CSS, Bootstrap 5, & JavaScript
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Live Demo](#live-demo)
 * [Status](#status)
 * [Contact](#contact)
 * [TODO](#TODO)
@@ -33,7 +33,7 @@ A few screenshots of the Final Design in Figma. Some elements in Figma design we
 * JavaScript
 
 
-## Setup
+## Live Demo
 View live demo here: [Demo](https://javascript-color-dropdown.netlify.app/)
 
 
